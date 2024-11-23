@@ -1,20 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import IconLink from "../components/IconLink.astro";
-import { Image } from "astro:assets";
-import backgroundGradient from "../../src/assets/background-gradient.webp";
 ---
 
 <Layout title="Thamara Liyanage">
   <main
     class="relative flex h-screen w-screen items-center justify-center bg-background px-6 py-20 font-light sm:px-20"
   >
-    <div class="absolute inset-0 bg-[url('assets/grain.webp')]"></div>
+    <div class="absolute inset-0 bg-[url('/assets/grain.webp')]"></div>
     <div
       class={`absolute inset-0 flex items-center justify-center overflow-hidden`}
     >
       <div
-        class="absolute left-1/2 top-1/2 h-full w-[600px] -translate-x-1/2 -translate-y-1/2 bg-[url('assets/background-gradient.webp')] bg-contain bg-center bg-no-repeat sm:w-[840px]"
+        class="absolute left-1/2 top-1/2 h-full w-[600px] -translate-x-1/2 -translate-y-1/2 bg-[url('/assets/background-gradient.webp')] bg-contain bg-center bg-no-repeat sm:w-[840px]"
       >
       </div>
     </div>
